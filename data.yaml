@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Edge_Settling', 'No_Road', 'Potholes', 'Raveling', 'Rutting']
+
+roboflow:
+  workspace: potholedetection-cerua
+  project: road-defects-vwqck
+  version: 11
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/potholedetection-cerua/road-defects-vwqck/dataset/11
