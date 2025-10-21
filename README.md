@@ -65,55 +65,7 @@ The workflow of the system is as follows:
   - **Database:** MySQL
   - **Data Annotation:** Roboflow
 
-## Installation Guide
 
-Follow these steps to set up the project environment.
-
-**1. Clone the Repository**
-
-```bash
-git clone https://github.com/Harshavardhan123-cloud/IOT_Based_Road_Defect_Detection_System.git
-cd IOT_Based_Road_Defect_Detection_System
-```
-
-**2. Install Dependencies**
-Ensure you have Python 3.8+ installed. Then, install the required libraries:
-
-```bash
-pip install -r requirements.txt
-```
-
-**3. Setup the Database**
-
-  - Make sure you have a MySQL server running.
-  - Create a new database for the project.
-    ```sql
-    CREATE DATABASE road_defects_db;
-    ```
-  - Import the provided database schema (`schema.sql`) to set up the necessary tables.
-  - Update the database connection details in a configuration file (e.g., `config.py`).
-
-**4. Download Model Weights**
-
-  - Download the pre-trained YOLOv11/YOLOv12 model weights.
-  - Place the `.pt` or `.weights` files in the `/models` directory.
-
-**5. Hardware Setup**
-
-  - Connect the camera, depth sensors, and GPS module to the correct GPIO pins on the Raspberry Pi 4.
-  - Ensure all hardware components are securely mounted.
-
-## Usage
-
-To start the road defect detection script, run the main file from the terminal:
-
-```bash
-python detect.py --source 0 --weights models/yolov12.pt --conf 0.6
-```
-
-  - `--source`: The video source (e.g., `0` for the Raspberry Pi camera).
-  - `--weights`: Path to the trained model weights file.
-  - `--conf`: The confidence threshold for detection.
 
 ## Dataset
 
