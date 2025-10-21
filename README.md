@@ -1,11 +1,3 @@
-Of course. Here is a comprehensive and professional `README.md` file for your **IoT-Based Road Defect Detection System**.
-
-This README is structured to be clear, informative, and easy for anyone (a recruiter, a professor, or a fellow developer) to understand the project's scope, technology, and how to set it up.
-
-You can copy the content below and save it as a `README.md` file in your GitHub repository.
-
------
-
 # IoT-Based Road Defect Detection System
 
 An end-to-end system for the automated detection, classification, and geo-tagging of road defects using a custom IoT device and deep learning models. This project aims to provide a cost-effective solution for municipal authorities to enable proactive road maintenance and improve public safety.
