@@ -18,7 +18,6 @@ An end-to-end system for the automated detection, classification, and geo-taggin
   - [Key Features](#key-features)
   - [System Architecture](#system-architecture)
   - [Hardware & Software Stack](#hardware--software-stack)
-  - [Installation Guide](#installation-guide)
   - [Usage](#usage)
   - [Dataset](#dataset)
   - [Results & Performance](#results--performance)
